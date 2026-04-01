@@ -51,7 +51,7 @@ dotnet run
 dotnet --list-sdks
 ```
 
-# Cài lên google studio firebase
+# Cài .NET SDK lên google studio firebase
 ### cách 1
 sữa file dev.nix thêm  
 ```

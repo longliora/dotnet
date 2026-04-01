@@ -51,35 +51,31 @@ dotnet run
 dotnet --list-sdks
 ```
 
+# Cài lên google studio firebase
+### cách 1
+sữa file dev.nix thêm  
+```
+pkgs.dotnet-sdk_10 pkgs.nodejs_22
+```
+thành:
+```
+packages = [
+    # pkgs.go
+    # pkgs.python311
+    # pkgs.python311Packages.pip
+    # pkgs.nodejs_22
+    # pkgs.nodePackages.nodemon
+    pkgs.dotnet-sdk_10 pkgs.nodejs_22 
+  ];
+```
+<img width="767" height="225" alt="image" src="https://github.com/user-attachments/assets/28b42e79-e6e1-4dc4-86fd-cb56da8c8187" />
 
+---
 
-✅ 1. Cài .NET (không cần sudo)
-  wget https://dot.net/v1/dotnet-install.sh
-  chmod +x dotnet-install.sh
-  ./dotnet-install.sh --channel 8.0
+### cách 2
+ nhấn nút + Add Packages 
+ <img width="126" height="38" alt="image" src="https://github.com/user-attachments/assets/44e61163-1103-4c72-8eb4-56600f3ae24c" />
 
-
-  
-✅ 2. Thêm vào PATH
-  export PATH=$PATH:$HOME/.dotnet
-
-👉 Lưu luôn:
-
-  echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.bashrc
-  source ~/.bashrc
-
-  
-✅ 3. Fix lỗi ICU (QUAN TRỌNG)
-  export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
-
-👉 Lưu luôn:
-  
-  echo 'export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1' >> ~/.bashrc
-  source ~/.bashrc
-
-  
-✅ 4. Kiểm tra
-  dotnet --version
 
 
 

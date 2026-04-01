@@ -1,0 +1,11 @@
+header{
+    background-color: greenyellow;
+    padding: 1px;
+}
+header a{
+    color: rgb(150, 32, 32);
+}
+footer{
+    background-color: rgb(255, 255, 39);
+        padding: 1px;
+}

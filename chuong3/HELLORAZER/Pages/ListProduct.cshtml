@@ -1,0 +1,54 @@
+﻿@page
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@model MyApp.Namespace.ListProductModel // Chỉnh lại namespace nếu cần (xem file .cs)
+@functions {
+    // Định nghĩa lớp Student
+    class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string Category { get; set; }
+    }
+}
+
+
+
+@{
+    // Tạo danh sách sản phẩm
+    List<Product> products = new(){
+    new Product { Id = 1, Name = "Laptop", Price = 15000000, Category = "Electronics" },
+    new Product { Id = 2, Name = "Smartphone", Price = 10000000, Category = "Electronics" },
+    new Product { Id = 3, Name = "Book", Price = 100000, Category = "Education" }
+    };
+
+    // Hàm lấy sản phẩm đang được chọn dựa theo id trên Query String (URL)
+    // Ví dụ: localhost:{port}/ListProducts?id=2
+    Product GetSelectedProduct()
+    {
+        int productId;
+        if (int.TryParse(Request.Query["id"], out productId))
+        {
+            return products.FirstOrDefault(p => p.Id == productId);
+        }
+        return null;
+    }
+}
+
+
+<h2>Danh sách sản phẩm</h2>
+
+    @foreach (var product in products)
+    {
+        <div>
+            <p><strong>ID:</strong> @product.Id</p>
+            <p><strong>Tên:</strong> @product.Name</p>
+            <p><strong>Giá:</strong> @product.Price</p>
+            <p><strong>Loại:</strong> @product.Category</p>
+        </div>
+    }
+    <a href="?id=@product.Id">Xem chi tiết</a>
+}
+

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AnonymousTypeDem/AnonymousTypeDem.csproj" />
+  <Project Path="Delegate/Delegate.csproj" />
+  <Project Path="GenericDemo/GenericDemo.csproj" />
+  <Project Path="NullSafe/NullSafe.csproj" />
+</Solution>

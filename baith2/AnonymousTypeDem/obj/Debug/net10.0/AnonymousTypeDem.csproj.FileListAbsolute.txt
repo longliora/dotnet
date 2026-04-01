@@ -1,0 +1,15 @@
+/workspaces/dotnet/AnonymousTypeDem/bin/Debug/net10.0/AnonymousTypeDem
+/workspaces/dotnet/AnonymousTypeDem/bin/Debug/net10.0/AnonymousTypeDem.deps.json
+/workspaces/dotnet/AnonymousTypeDem/bin/Debug/net10.0/AnonymousTypeDem.runtimeconfig.json
+/workspaces/dotnet/AnonymousTypeDem/bin/Debug/net10.0/AnonymousTypeDem.dll
+/workspaces/dotnet/AnonymousTypeDem/bin/Debug/net10.0/AnonymousTypeDem.pdb
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.AssemblyInfoInputs.cache
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.AssemblyInfo.cs
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.csproj.CoreCompileInputs.cache
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.sourcelink.json
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.dll
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/refint/AnonymousTypeDem.dll
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.pdb
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/AnonymousTypeDem.genruntimeconfig.cache
+/workspaces/dotnet/AnonymousTypeDem/obj/Debug/net10.0/ref/AnonymousTypeDem.dll

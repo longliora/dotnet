@@ -74,8 +74,10 @@ packages = [
 
 ### cách 2
  nhấn nút + Add Packages 
+ 
  <img width="126" height="38" alt="image" src="https://github.com/user-attachments/assets/44e61163-1103-4c72-8eb4-56600f3ae24c" />
 
+---
 
 
 

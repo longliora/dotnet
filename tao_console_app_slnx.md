@@ -24,3 +24,17 @@ Giải thích:
 
 lệnh tạo razer page:
 dotnet new webapp -o name
+
+
+
+
+
+rm -rf .git
+
+git init
+echo ".codespaces/" >> .gitignore
+git add .
+git commit -m "init clean"
+git branch -M main
+git remote add origin https://github.com/longliora/dotnet
+git push -u origin main --force

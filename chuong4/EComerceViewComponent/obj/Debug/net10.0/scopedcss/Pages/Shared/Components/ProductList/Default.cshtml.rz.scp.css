@@ -1,0 +1,10 @@
+list-group[b-3g0ss95fmb] {
+    list-style-type: none;
+    padding: 0;
+}
+.list-group-item[b-3g0ss95fmb] {
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+} 

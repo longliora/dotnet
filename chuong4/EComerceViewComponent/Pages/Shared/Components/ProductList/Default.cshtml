@@ -1,0 +1,13 @@
+@using EComerceViewComponent.Models
+@model List<Product>
+
+<ul class="list-group">
+    @foreach (var product in Model)
+    {
+        <li class="list-group-item">
+            <h5>@product.Name</h5>
+            <p>@product.Description</p>
+            <span class="badge badge-primary">@product.Price.ToString("C")</span>
+        </li>
+    }
+</ul>

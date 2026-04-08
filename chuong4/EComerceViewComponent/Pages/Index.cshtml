@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+<main>
+    <h2>Chào mừng đến với Cửa hàng Trực tuyến</h2>
+
+
+<!-- await Component.InvokeAsync("ProductList") -->
+@await Component.InvokeAsync("ProductList", new { sapXepTang = true })
+@await Component.InvokeAsync("BestSellers", new { count = 5 })
+
+</main>

@@ -15,19 +15,26 @@ cách thêm 1 project vào slnx (slnx tạo bằng lệnh k phải ctrl + shift 
 dotnet new console -n Delegate
 
 
-###tạo thêm page#
+### tạo thêm page
+
 dotnet new page -n About -o Pages
-Giải thích:
+* Giải thích:
  -n About: Đặt tên trang là About.
  -o Pages: Đặt file vào thư mục Pages
 
 
-lệnh tạo razer page:
+### lệnh tạo razer page:
+
 dotnet new webapp -o name
 
+### model(class) và Components và thư mục Components  chứa các Components và service đc tạo bằng tay.
+<a (Lưu ý: tên file = Tên component + “ViewComponent”.cs  luôn luôn có chữ ViewComponent ở cuối) a>
+Đặt tên file là: Default.cshtml
+<a (Lưu ý: tên file luôn là Default.cshtml) a>
 
 
-
+Đặt tên file là: BestSellersViewComponent.cs
+<a (Lưu ý: tên file = Tên component + “ViewComponent”.cs  luôn luôn có chữ ViewComponent ở cuối)>
 
 rm -rf .git
 

@@ -1,0 +1,10 @@
+list-group {
+    list-style-type: none;
+    padding: 0;
+}
+.list-group-item {
+    border: 1px solid red;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+} 

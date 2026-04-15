@@ -6,7 +6,7 @@ namespace EComerceViewComponent.Pages.Shared.Components.BestSellers
 {
     public class BestSellersViewComponent : ViewComponent
     {
-        public IViewComponentResult Invoke(int count)
+        public async Task<IViewComponentResult> InvokeAsync(int count)
         {
             var allBestSellers = new List<string>
             {
@@ -16,6 +16,7 @@ namespace EComerceViewComponent.Pages.Shared.Components.BestSellers
                 "Product D",
                 "Product E"
             };
+            await Task.Delay(10); // Simulate asynchronous operation
             var BestSellers = allBestSellers.Take(count).ToList();
             return View(BestSellers);
         }

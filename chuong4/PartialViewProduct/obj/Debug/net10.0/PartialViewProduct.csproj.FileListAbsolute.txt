@@ -95,3 +95,4 @@
 /workspaces/chuong4/PartialViewProduct/obj/Debug/net10.0/PartialViewProduct.pdb
 /workspaces/chuong4/PartialViewProduct/obj/Debug/net10.0/PartialViewProduct.genruntimeconfig.cache
 /workspaces/chuong4/PartialViewProduct/obj/Debug/net10.0/ref/PartialViewProduct.dll
+/workspaces/chuong4/PartialViewProduct/obj/Debug/net10.0/PartialViewProduct.sourcelink.json

@@ -27,8 +27,8 @@ dotnet new page -n About -o Pages
 
 dotnet new webapp -o name
 
-### model(class) và Components và thư mục Components  chứa các Components và service đc tạo bằng tay.
-<a (Lưu ý: tên file = Tên component + “ViewComponent”.cs  luôn luôn có chữ ViewComponent ở cuối) a>
+### models(class) và Components và thư mục Components  chứa các Components và service đc tạo bằng tay.
+<a (Lưu ý: tên file = Tên component + “ViewComponent”.cs luôn luôn có chữ ViewComponent ở cuối) a>
 Đặt tên file là: Default.cshtml
 <a (Lưu ý: tên file luôn là Default.cshtml) a>
 
